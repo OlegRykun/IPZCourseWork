@@ -4,6 +4,10 @@ import { useDispatch } from 'react-redux';
 
 import { logout } from './../../containers/LoginPage/actions';
 
+/**
+ *@param {string} name
+ */ 
+ 
 const Header = ({ username }) => {
   const dispatch = useDispatch();
   let name = username.slice(1);
